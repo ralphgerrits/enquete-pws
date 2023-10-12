@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquête over kunstmatige intelligentie</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<h2>Algemene Informatie</h2>
+<form action="/submit" method="post">
+    <p>Naam:</p>
+    <input type="text" name="naam" placeholder="Vrijwillig">
+    <p>Leeftijd:</p>
+    <input type="text" name="leeftijd" placeholder="exacte leeftijd">
+    <p>Geslacht:</p>
+    <input type="text" name="geslacht">
+    <p>Beroep:</p>
+    <input type="text" name="beroep">
+
+    <h2>Enquête: Invloed van kunstmatige intelligentie op Moderne Technologieën en Maatschappij</h2>
+
+    <h3>Algemene Kennis</h3>
+    <p>Hoe zou u uw begrip van kunstmatige intelligentie beoordelen?</p>
+    <input type="radio" name="kennis" value="zeerGoed"> Zeer goed<br>
+    <input type="radio" name="kennis" value="goed"> Goed<br>
+    <input type="radio" name="kennis" value="gemiddeld"> Gemiddeld<br>
+    <input type="radio" name="kennis" value="beperkt"> Beperkt<br>
+    <input type="radio" name="kennis" value="geenKennis"> Geen kennis<br>
+
+    <h3>Toepassing in het Dagelijks Leven</h3>
+    <p>In welke dagelijkse technologieën of toepassingen bent u zich bewust van kunstmatige intelligentie-integratie?</p>
+    <textarea name="dagelijkseTechnologieen"></textarea>
+
+    <h3>Positieve Impact</h3>
+    <p>Wat zijn volgens u de grootste voordelen van kunstmatige intelligentie voor de moderne samenleving?</p>
+    <input type="checkbox" name="voordelen[]" value="efficientie"> Efficiëntieverbetering<br>
+    <input type="checkbox" name="voordelen[]" value="automatisering"> Automatisering van repetitieve taken<br>
+    <input type="checkbox" name="voordelen[]" value="medisch"> Medische vooruitgang<br>
+    <input type="checkbox" name="voordelen[]" value="personalisatie"> Personalisatie van diensten<br>
+    <input type="checkbox" name="voordelen[]" value="ander"> Andere: <input type="text" name="andereVoordelen">
+
+    <h3>Zorgen en Risico's</h3>
+    <p>Welke zorgen heeft u met betrekking tot de invloed van kunstmatige intelligentie op de samenleving?</p>
+    <textarea name="zorgen"></textarea>
+
+    <h3>Arbeidsmarkt</h3>
+    <p>Denkt u dat kunstmatige intelligentie meer banen zal creëren of meer banen zal vervangen in de toekomst?</p>
+    <input type="radio" name="arbeidsmarkt" value="creeren"> Creëren<br>
+    <input type="radio" name="arbeidsmarkt" value="vervangen"> Vervangen<br>
+    <input type="radio" name="arbeidsmarkt" value="geenImpact"> Geen impact<br>
+    <input type="radio" name="arbeidsmarkt" value="onzeker"> Onzeker<br>
+
+    <h3>Ethiek en Normen</h3>
+    <p>Hoe belangrijk vindt u ethische overwegingen bij de ontwikkeling en implementatie van kunstmatige intelligentie?</p>
+    <input type="radio" name="ethiek" value="zeerBelangrijk"> Zeer belangrijk<br>
+    <input type="radio" name="ethiek" value="belangrijk"> Belangrijk<br>
+    <input type="radio" name="ethiek" value="neutraal"> Neutraal<br>
+    <input type="radio" name="ethiek" value="nietZoBelangrijk"> Niet zo belangrijk<br>
+    <input type="radio" name="ethiek" value="nietBelangrijk"> Niet belangrijk<br>
+
+    <h3>Privacy en Gegevens</h3>
+    <p>Maakt u zich zorgen over de privacy van uw gegevens met de opkomst van kunstmatige intelligentie?</p>
+    <input type="radio" name="privacy" value="zeerBezorgd"> Zeer bezorgd<br>
+    <input type="radio" name="privacy" value="enigszinsBezorgd"> Enigszins bezorgd<br>
+    <input type="radio" name="privacy" value="neutraal"> Neutraal<br>
+    <input type="radio" name="privacy" value="nietZoBezorgd"> Niet zo bezorgd<br>
+    <input type="radio" name="privacy" value="helemaalNietBezorgd"> Helemaal niet bezorgd<br>
+
+    <h3>Maatschappelijke Rol</h3>
+    <p>Denkt u dat kunstmatige intelligentie een grotere rol moet spelen in besluitvormingsprocessen binnen de overheid of openbare diensten?</p>
+    <input type="radio" name="maatschappelijkeRol" value="ja"> Ja, zeker<br>
+    <input type="radio" name="maatschappelijkeRol" value="misschien"> Misschien, in sommige gebieden<br>
+    <input type="radio" name="maatschappelijkeRol" value="neutraal"> Neutraal<br>
+    <input type="radio" name="maatschappelijkeRol" value="nee"> Nee, liever niet<br>
+    <input type="radio" name="maatschappelijkeRol" value="absoluutNiet"> Absoluut niet<br>
+
+    <h3>Onderwijs en Bewustzijn</h3>
+    <p>Denkt u dat er meer nadruk moet worden gelegd op kunstmatige intelligentie-onderwijs en bewustwording in scholen?</p>
+    <input type="radio" name="onderwijs" value="sterkMeeEens"> Sterk mee eens<br>
+    <input type="radio" name="onderwijs" value="meeEens"> Mee eens<br>
+    <input type="radio" name="onderwijs" value="neutraal"> Neutraal<br>
+    <input type="radio" name="onderwijs" value="oneens"> Oneens<br>
+    <input type="radio" name="onderwijs" value="sterkOneens"> Sterk oneens<br>
+
+    <h3>Toekomstige Vooruitzichten</h3>
+    <p>Hoe ziet u de toekomst van kunstmatige intelligentie in de komende 10 jaar?</p>
+    <textarea name="toekomst"></textarea>
+
+    <input type="submit" value="Verzenden">
+</form>
+
+</body>
+</html>
+
